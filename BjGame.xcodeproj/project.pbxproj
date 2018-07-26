@@ -16,6 +16,8 @@
 		688CE29021094B3E00F1DF90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 688CE28F21094B3E00F1DF90 /* main.m */; };
 		688CE29A21094B3E00F1DF90 /* BjGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688CE29921094B3E00F1DF90 /* BjGameTests.m */; };
 		688CE2A521094B3E00F1DF90 /* BjGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688CE2A421094B3E00F1DF90 /* BjGameUITests.m */; };
+		688CE2B72109567700F1DF90 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 688CE2B62109567700F1DF90 /* README.md */; };
+		688CE2BC210959B500F1DF90 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688CE2BB210959B500F1DF90 /* MetalKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		688CE2A021094B3E00F1DF90 /* BjGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BjGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		688CE2A421094B3E00F1DF90 /* BjGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BjGameUITests.m; sourceTree = "<group>"; };
 		688CE2A621094B3E00F1DF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688CE2B62109567700F1DF90 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../Downloads/HelloCompute/README.md; sourceTree = "<group>"; };
+		688CE2BB210959B500F1DF90 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688CE2BC210959B500F1DF90 /* MetalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,7 @@
 				688CE29821094B3E00F1DF90 /* BjGameTests */,
 				688CE2A321094B3E00F1DF90 /* BjGameUITests */,
 				688CE27B21094B3C00F1DF90 /* Products */,
+				688CE2B82109599900F1DF90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +117,7 @@
 				688CE28921094B3E00F1DF90 /* Assets.xcassets */,
 				688CE28B21094B3E00F1DF90 /* LaunchScreen.storyboard */,
 				688CE28E21094B3E00F1DF90 /* Info.plist */,
+				688CE2B62109567700F1DF90 /* README.md */,
 				688CE28F21094B3E00F1DF90 /* main.m */,
 				688CE28621094B3C00F1DF90 /* BjGame.xcdatamodeld */,
 			);
@@ -133,6 +140,14 @@
 				688CE2A621094B3E00F1DF90 /* Info.plist */,
 			);
 			path = BjGameUITests;
+			sourceTree = "<group>";
+		};
+		688CE2B82109599900F1DF90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				688CE2BB210959B500F1DF90 /* MetalKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +255,7 @@
 			files = (
 				688CE28D21094B3E00F1DF90 /* LaunchScreen.storyboard in Resources */,
 				688CE28A21094B3E00F1DF90 /* Assets.xcassets in Resources */,
+				688CE2B72109567700F1DF90 /* README.md in Resources */,
 				688CE28521094B3C00F1DF90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LD4V6CTLDS;
 				INFOPLIST_FILE = BjGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LD4V6CTLDS;
 				INFOPLIST_FILE = BjGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

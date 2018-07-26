@@ -13,9 +13,13 @@
 @end
 
 @implementation ViewController
+{
+    MTKView * view_;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"start oye!!!");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
